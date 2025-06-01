@@ -21,12 +21,12 @@ const formSchema = z.object({
 })
 
 const transporter = nodemailer.createTransport({
-  host: "mail.browwraps.com",
+  host: "browwraps.com",
   port: 465,
   secure: true,
   auth: {
     user: "contact@browwraps.com",
-    pass: "tCDRhnsv5ta1",
+    pass: "}BsV+o$icWFm",
   },
 })
 
