@@ -26,7 +26,7 @@ const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: "contact@browwraps.com",
-    pass: "}BsV+o$icWFm",
+    pass: "gt9Jqn4&ml$g",
   },
 })
 
@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
 
     const mailOptions = {
       from: `"Browwraps" <contact@browwraps.com>`,
-      to: "oceanwraps@gmail.com",
+      to: "oceanwraps@gmail.com", 
       subject: `New Quote Request from ${validatedData.firstName} ${validatedData.lastName}`,
       html: `
         <h1>New Quote Request</h1>
